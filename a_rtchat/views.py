@@ -1,6 +1,6 @@
-from django.shortcuts import render, get_object_or_404, redirect 
+from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
-from .models import *
+from .models import ChatGroup
 from .forms import ChatmessageCreateForm
 
 @login_required
